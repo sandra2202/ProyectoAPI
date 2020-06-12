@@ -1,7 +1,4 @@
 const boton1 = document.getElementById('boton1');
-
-
-
 boton1.addEventListener('click', function(){
     const xhr = new XMLHttpRequest();
 
@@ -22,7 +19,6 @@ boton1.addEventListener('click', function(){
                 document.getElementById('empleado').innerHTML = htmlTemplate;
         }
     }
-
     xhr.send();
 });
 
