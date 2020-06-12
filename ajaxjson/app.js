@@ -47,15 +47,11 @@ boton2.addEventListener('click', function(){
                         <li>ACTIVIDADES: ${persona.trabajo}</li>
                     </ul>                          
                 `;
-                    
-
-                })
-                document.getElementById('empleados').innerHTML = htmlTemplate;
+            })
+            document.getElementById('empleados').innerHTML = htmlTemplate;
         }
     }
-
     xhr.send();
-
 });
 
 
